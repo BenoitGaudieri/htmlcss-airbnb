@@ -70,7 +70,7 @@
     background: #4f8baf;
     line-height: 40px;
     opacity: .7;
-    z-index: 1;
+    z-index: 2;
 }
 
 /* styling logo */
@@ -114,3 +114,78 @@
 #nav-list li a:hover {
     border-color: rgb(1, 190, 190);
 }
+
+/* sezione box con form */
+/* styling del box */
+#boxxer {
+    height: 500px;
+    width: 441px;
+    position: absolute;
+    top: 160px;
+    left: 80px;
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 32px;
+    padding-bottom: 24px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+    z-index: 1;
+}
+
+/* styling testo */
+#box-text {
+    padding-bottom: 10px;
+    font-family: 'Montserrat';
+    color: #484848;
+}
+
+/* padding dei form */
+#form div {
+    padding-bottom: 10px;
+}
+
+/* styling labels */
+#form label {
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-family: 'Montserrat';
+    color: #4f8baf;
+}
+
+/* styling input */
+#form input {
+    border: 1px solid #ebebeb;
+    border-radius: 3px 0 0 3px;
+    line-height: 3;
+    font-size: 18px;
+}
+
+/* per il full width di where */
+.full {
+    width: 100%;
+}
+
+/* per le label block */
+.block {
+    display: block;
+}
+
+/* quelle inline-block */
+.in-block {
+    display: inline-block;
+}
+
+/* dove metto il padding */
+.padded {
+    padding-right: 100px;
+}
+
+/* styling select menu to fix */
+#form select {
+    width: 100%;
+    border: 1px solid #ebebeb;
+    border-radius: 3px 0 0 3px;
+    font-size: 30px;
+    color: #cccccc;
+}
+
+/* to do: styling tasto */
