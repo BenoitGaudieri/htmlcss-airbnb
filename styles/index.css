@@ -35,7 +35,7 @@
     opacity: .3;
 }
 
-/* testo centrato */
+/* testo centrato, stilato e responsive alla viewport */
 .text {
     position: absolute;
     top: 50%;
@@ -43,15 +43,19 @@
     transform: translate(-50%, -50%);
     font-family: 'Montserrat';
     color: #ffffff;
-    font-size: 160px;
+    font-size: 10vw;
     text-shadow: 3px 3px #000000;
     letter-spacing: 20px;
     cursor: default;
 }
 
-/* ove l'ombra cupa scende */
+/* dove l'ombra cupa scende */
 .text.mordor {
     font-family: 'Rock Salt';
     text-shadow: 5px 5px #ee2929;
     letter-spacing: 15px;
+}
+
+.opacity.mordor {
+    background: #ee2929;
 }
