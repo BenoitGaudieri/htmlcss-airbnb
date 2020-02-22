@@ -8,6 +8,9 @@
 .content {
     position: relative;
     height: 100vh;
+    /* per margini attorno alle img mantenendo overlay solo all'interno */
+    /* width: 98vw;
+    margin: 1vh; */
 }
 
 /* ridimensionamento img */
@@ -89,6 +92,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    cursor: default;
 }
 
 /* doveroso inline-block */
@@ -202,4 +206,25 @@
     padding-left: 25px;
     padding-right: 25px;
     cursor: pointer;
+}
+
+#vanity {
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    background: #1b3c59;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1vw;
+}
+
+#vanity span {
+    display: block;
+}
+
+#me {
+    background: linear-gradient(#0051ff, #00b7ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
