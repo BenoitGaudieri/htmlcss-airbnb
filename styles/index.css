@@ -41,14 +41,19 @@
     cursor: default;
 }
 
+/* pesudo elemento che cambia il content di .text in base all'attributo name */
+.text::after {
+    content: " "attr(name) "";
+}
+
 /* dove l'ombra cupa scende */
-.text.mordor {
+.text[name="Mordor"] {
     font-family: 'Rock Salt';
     text-shadow: 5px 5px #ee2929;
     letter-spacing: 15px;
 }
 
-.opacity.mordor {
+.opacity[name="Mordor"] {
     background: #ee2929;
 }
 
