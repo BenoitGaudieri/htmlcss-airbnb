@@ -4,18 +4,10 @@
     box-sizing: border-box;
 }
 
-/* position relative per riferimento */
-#wrapper {
-    /* background-color: rgb(85, 111, 196); */
-    position: relative;
-    height: 100vh;
-}
-
-/* margini e riferimento per overlay */
+/* height 100vh per uniformità, riferimento per overlay */
 .content {
     position: relative;
     height: 100vh;
-    /* background-size: cover; */
 }
 
 /* ridimensionamento img */
@@ -68,7 +60,7 @@
     left: 0;
     width: 100%;
     background: #4f8baf;
-    line-height: 40px;
+    line-height: 50px;
     opacity: .7;
     z-index: 2;
 }
@@ -83,6 +75,7 @@
 #logo img {
     height: 40px;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 /* position absolute per posizionarli al termine della barra */
@@ -118,7 +111,7 @@
 /* sezione box con form */
 /* styling del box */
 #boxxer {
-    height: 500px;
+    height: 480px;
     width: 441px;
     position: absolute;
     top: 160px;
@@ -133,9 +126,11 @@
 
 /* styling testo */
 #box-text {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-family: 'Montserrat';
+    font-size: 25px;
     color: #484848;
+    cursor: default;
 }
 
 /* padding dei form */
@@ -146,7 +141,7 @@
 /* styling labels */
 #form label {
     text-transform: uppercase;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     font-family: 'Montserrat';
     color: #4f8baf;
 }
@@ -162,6 +157,7 @@
 /* per il full width di where */
 .full {
     width: 100%;
+    padding-left: 10px;
 }
 
 /* per le label block */
@@ -184,8 +180,21 @@
     width: 100%;
     border: 1px solid #ebebeb;
     border-radius: 3px 0 0 3px;
-    font-size: 30px;
+    font-size: 20px;
+    padding-top: 5px;
     color: #cccccc;
 }
 
-/* to do: styling tasto */
+/* styling tasto */
+#search {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-40%, -70%);
+    border-radius: 30px;
+    background: #ff1d1dc4;
+    color: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+}
