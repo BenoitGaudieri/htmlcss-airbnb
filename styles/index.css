@@ -9,8 +9,8 @@
     position: relative;
     height: 100vh;
     /* per margini attorno alle img mantenendo overlay solo all'interno */
-    /* width: 98vw;
-    margin: 1vh; */
+    /* width: 98vw; */
+    /* margin-bottom: 0.5vh; */
 }
 
 /* ridimensionamento img */
@@ -46,7 +46,7 @@
 
 /* pesudo elemento che cambia il content di .text in base all'attributo name */
 .text::after {
-    content: " "attr(name) "";
+    content: attr(name);
 }
 
 /* dove l'ombra cupa scende */
@@ -67,9 +67,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: #4f8baf;
+    background: #4f8aafc0;
     line-height: 50px;
-    opacity: .7;
     z-index: 2;
 }
 
